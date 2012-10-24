@@ -1,0 +1,14 @@
+Source: satanas-nbd
+Section: admin
+Priority: optional
+Maintainer: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
+Build-Depends: debhelper (>= 7.0)
+Standards-Version: 3.9.3
+
+Package: satanas-nbd
+Architecture: all
+Depends: ${misc:Depends}, nbd-server
+Description: nbd configuration for sataNAS
+ The package installs nbd-server and required configuration
+ to use sataNAS (the aurex NAS server) as disk image server
+ for LTSP Fat Clients in an aurex network environment
